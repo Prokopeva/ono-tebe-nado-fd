@@ -20,13 +20,19 @@
 }
 
 .header__links-list-item {
-  text-decoration: underline;
   list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
-  text-decoration: none;
   list-style: none;
+}
+
+.header__link {
+  text-decoration: underline;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -121,7 +127,7 @@
 .bet-button {
   z-index: 1;
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   border: 1px solid #FFF;
   color: #FFF;
   font-weight: 500;
